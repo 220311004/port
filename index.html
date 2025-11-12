@@ -23,34 +23,46 @@
     <section class="hero">
       <div class="hero-content">
         <h2>Hello, I'm <span>Ismita Afrin Eva</span></h2>
-        <p>A passionate Website Developer</p>
+        <p>Final-year student of Computer Science student at University of Creative Technology, Chittagong (UCTC). I am passionate about web development, machine learning, and cloud computing.</p>
 
-        <a href="#projects" class="btn">View My Work</a>
       </div>
     </section>
 
-    <!-- ====== ABOUT SECTION ====== -->
-    <section id="about" class="section about">
-      <h2>About Me</h2>
-      <p>
-        I’m a website developer skilled in HTML, CSS, and JavaScript. I love
-        building responsive and interactive websites that provide great user
-        experiences.
-      </p>
-    </section>
 
+    
     <!-- ====== SKILLS SECTION ====== -->
-    <section id="skills" class="section skills">
-      <h2>My Skills</h2>
-      <div class="skills-container">
-        <div class="skill">HTML5</div>
-        <div class="skill">CSS3</div>
-        <div class="skill">Python</div>
-        <div class="skill">AI</div>
-        <div class="skill">ML</div>
-        <div class="skill">Git & GitHub</div>
-      </div>
-    </section>
+<section id="skills" style="background:#f9fafc; padding:60px 20px; text-align:center;">
+  <h2 style="font-size:2rem; font-weight:700; color:#333; margin-bottom:40px; position:relative;">
+    My Skills
+  </h2>
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:20px; max-width:800px; margin:0 auto;">
+    <div class="skill-card" style="background:white; padding:20px 15px; border-radius:12px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;">HTML5</div>
+    <div class="skill-card" style="background:white; padding:20px 15px; border-radius:12px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;">CSS3</div>
+    <div class="skill-card" style="background:white; padding:20px 15px; border-radius:12px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;">Python</div>
+    <div class="skill-card" style="background:white; padding:20px 15px; border-radius:12px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;">Artificial Intelligence</div>
+    <div class="skill-card" style="background:white; padding:20px 15px; border-radius:12px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;">Machine Learning</div>
+    <div class="skill-card" style="background:white; padding:20px 15px; border-radius:12px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.1); transition:all 0.3s ease; cursor:pointer;">Git & GitHub</div>
+  </div>
+
+  <script>
+    // Simple hover animation effect
+    document.querySelectorAll(".skill-card").forEach(card => {
+      card.addEventListener("mouseenter", () => {
+        card.style.transform = "translateY(-5px)";
+        card.style.background = "#007bff";
+        card.style.color = "#fff";
+        card.style.boxShadow = "0 8px 16px rgba(0, 123, 255, 0.3)";
+      });
+      card.addEventListener("mouseleave", () => {
+        card.style.transform = "translateY(0)";
+        card.style.background = "white";
+        card.style.color = "#444";
+        card.style.boxShadow = "0 4px 8px rgba(0,0,0,0.1)";
+      });
+    });
+  </script>
+</section>
+
 
    
     <!-- ====== PROJECTS SECTION ====== -->
