@@ -148,64 +148,45 @@
         box-shadow: 0 8px 16px rgba(0, 123, 255, 0.3);
       }
 
-      /* ===== PROJECTS ===== */
-      #projects {
-        padding: 60px 20px;
-        text-align: center;
-      }
+<!-- ====== PROJECTS SECTION ====== -->
+<section id="projects" style="background:#fff; padding:60px 20px; text-align:center;">
+  <h2 style="font-size:2rem; font-weight:700; color:#333; margin-bottom:40px;">My Projects</h2>
 
-      #projects h2 {
-        font-size: 2rem;
-        font-weight: 700;
-        color: #333;
-        margin-bottom: 40px;
-      }
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:25px; max-width:1000px; margin:0 auto;">
 
-      .project-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 30px;
-        max-width: 1000px;
-        margin: 0 auto;
-      }
+    <!-- Project 1 -->
+    <div style="background:#f9fafc; border-radius:12px; box-shadow:0 4px 8px rgba(0,0,0,0.1); overflow:hidden; transition:0.3s;">
+      <img src="https://picsum.photos/400/250?1" alt="Face Recognition" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:15px;">
+        <h3 style="color:#007bff; margin-bottom:10px;">Face Recognition Attendance</h3>
+        <p style="color:#555; font-size:0.95rem;">Python + OpenCV system for automated student attendance using facial recognition and MySQL database.</p>
+        <a href="https://github.com/220311004/Face-Recognition-Attendance" target="_blank" style="display:inline-block; margin-top:10px; background:#007bff; color:#fff; padding:8px 15px; border-radius:6px; text-decoration:none; font-weight:600;">View on GitHub</a>
+      </div>
+    </div>
 
-      .project-card {
-        background: #fff;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s;
-      }
+    <!-- Project 2 -->
+    <div style="background:#f9fafc; border-radius:12px; box-shadow:0 4px 8px rgba(0,0,0,0.1); overflow:hidden; transition:0.3s;">
+      <img src="https://picsum.photos/400/250?2" alt="Fraud Detection" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:15px;">
+        <h3 style="color:#007bff; margin-bottom:10px;">Credit Card Fraud Detection</h3>
+        <p style="color:#555; font-size:0.95rem;">Machine learning project to detect fraudulent transactions using Python and scikit-learn.</p>
+        <a href="https://github.com/220311004/Fraud-Detection-ML" target="_blank" style="display:inline-block; margin-top:10px; background:#007bff; color:#fff; padding:8px 15px; border-radius:6px; text-decoration:none; font-weight:600;">View on GitHub</a>
+      </div>
+    </div>
 
-      .project-card:hover {
-        transform: translateY(-5px);
-      }
+    <!-- Project 3 -->
+    <div style="background:#f9fafc; border-radius:12px; box-shadow:0 4px 8px rgba(0,0,0,0.1); overflow:hidden; transition:0.3s;">
+      <img src="https://picsum.photos/400/250?3" alt="Electric Billing" style="width:100%; height:180px; object-fit:cover;">
+      <div style="padding:15px;">
+        <h3 style="color:#007bff; margin-bottom:10px;">Electric Billing System</h3>
+        <p style="color:#555; font-size:0.95rem;">System to calculate and manage electricity bills efficiently.</p>
+        <a href="https://github.com/220311004/Electric-Billing-System" target="_blank" style="display:inline-block; margin-top:10px; background:#28a745; color:#fff; padding:8px 15px; border-radius:6px; text-decoration:none; font-weight:600;">View on GitHub</a>
+      </div>
+    </div>
 
-      .project-card img {
-        width: 100%;
-        height: 180px;
-        object-fit: cover;
-      }
+  </div>
+</section>
 
-      .project-card h3 {
-        margin: 15px;
-        font-size: 1.2rem;
-        color: #007bff;
-      }
-
-      .project-card p {
-        font-size: 0.9rem;
-        color: #555;
-        margin: 0 15px 15px;
-      }
-
-      .project-card a {
-        display: inline-block;
-        margin-bottom: 15px;
-        color: #007bff;
-        text-decoration: none;
-        font-weight: 500;
-      }
 
       /* ===== CONTACT ===== */
       #contact {
